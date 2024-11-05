@@ -1,0 +1,54 @@
+@font-face {
+    font-family: gosznak;
+    src: url(../font/Gosznak-Semi\ Bold.otf);
+}
+@font-face {
+    font-family: arkel;
+    src: url(../font/VanArkel.otf);
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    background: linear-gradient(#2313b9,#f7f7f7);
+    height: 299px;
+}
+.header-text{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arkel;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px #363535;
+}
+.container{
+    display: flex;
+}
+.content{
+    padding: 0 20px;
+}
+.left{
+    float: left;
+    padding-right: 10px;
+}
+.right{
+    float: right;
+    padding-left: 10px;
+}
+h2{
+    font-family: gosznak;
+    font-size: 2rem;
+}
+aside{
+    background: linear-gradient(#2313b9,#f7f7f7);
+    align-self: start;
+    font-family: gosznak;
+    padding: 0 5px;
+}
+aside > ul{
+    list-style-type: none;
+    padding-left: 0;
+}
